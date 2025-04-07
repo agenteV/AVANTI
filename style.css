@@ -1,0 +1,100 @@
+/* Faixa do topo */
+.faixa-topo {
+    font-size: 14px;
+  }
+  
+  /* Banner */
+  .banner {
+    background-color: #f3f3f3;
+    padding: 60px 0;
+  }
+  
+  .banner h1 {
+    font-size: 48px;
+  }
+  
+  .banner p,
+  .banner h2 {
+    margin: 0;
+  }
+  
+  .card {
+    position: relative;
+    border: 1px solid #eee;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card .badge {
+    font-size: 12px;
+  }
+/* Scroll horizontal com snap */
+.scroll-snap-x {
+    scroll-snap-type: x mandatory;
+    gap: 1rem;
+  }
+  
+  .scroll-snap-x > div {
+    scroll-snap-align: start;
+    flex: 0 0 auto;
+    width: 200px;
+  }
+  
+  /* Estilo dos cards */
+  .card {
+    border: 1px solid #eee;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  .card img {
+    height: 200px;
+    object-fit: contain;
+  }
+  
+  .card-body h6 {
+    font-size: 14px;
+    min-height: 40px;
+  }
+
+  .section-institucional {
+    gap: 2rem;
+  }
+  
+  .img-caneca {
+    max-width: 100%;
+    height: auto;
+    transform: rotate(-10deg);
+  }
+  
+  .texto-box p {
+    font-size: 0.95rem;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .img-box {
+    background-color: #C2C2C2; /* tom semelhante ao da imagem de referência */
+  }
+
+  .features-section {
+    background-color: #e5e5e5;
+  }
+  
+  .icon-box {
+    background-color: #0057ff;
+    color: white;
+    font-size: 1.5rem;
+    width: 58px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
