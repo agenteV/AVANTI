@@ -79,7 +79,7 @@
   }
   
   .img-box {
-    background-color: #C2C2C2; /* tom semelhante ao da imagem de referência */
+    background-color: #C2C2C2; 
   }
 
   .features-section {
@@ -98,3 +98,189 @@
     justify-content: center;
     flex-shrink: 0;
   }
+
+  .banner-contato {
+    background-image: url('./img/imagem-logo-avanti.png'); 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 660px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1920px;
+  }
+  
+  .overlay {
+    background-color: #005CFF; 
+    padding: 30px 20px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .overlay p {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  /*PARTE DE SE CADASTRAR*/
+
+  .newsletter {
+    text-align: center;
+    margin: 60px 0;
+  }
+  
+  .newsletter-title {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  .newsletter-title a {
+    color: #0057FF;
+    text-decoration: none;
+  }
+  
+  .newsletter-form {
+    width: auto;
+    height: 176px;
+    top: 54px;
+    border-radius: 8px;
+    background-color: #DEDEDE;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 24px;
+    
+  }
+  
+  .input {
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    width: 280px;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #555;
+    gap: 4px;
+  }
+  
+  .checkbox-container a {
+    color: #555;
+    text-decoration: underline;
+  }
+  
+  .button {
+    padding: 12px 20px;
+    background-color: #0057FF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+
+   /*FOOTER*/
+
+   .footer {
+    background-color: #F5F5F5;
+    padding: 40px 50px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #333;
+  }
+  
+  .footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+    padding-bottom: 30px;
+    align-items: center;
+  }
+  
+  .footer-brand {
+    flex: 1 1 200px;
+  }
+  
+  .footer-brand img {
+    width: 152px;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+    font-size: 22px;
+    color: #005CFF;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex: 2 1 400px;
+    gap: 40px;
+  }
+  
+  .footer-links div h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links div h5 {
+    margin: 5px 0;
+    font-weight: normal;
+    color: #555;
+    font-size: 13px;
+  }
+  
+  .footer-links div p {
+    margin-top: 5px;
+    font-size: 13px;
+    color: #777;
+  }
+  
+  .footer-payment {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+    flex-wrap: wrap;
+   
+   
+  }
+  
+  .footer-payment img {
+    height: 30px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+    padding: 40px 0;
+    gap: 40px;
+    background-color: #ffffff;
+  }
+  
+  .footer-certificates {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    color: #eee;
+  }
+  
+  .footer-certificates img {
+    height: 28px;
+  }
+  
